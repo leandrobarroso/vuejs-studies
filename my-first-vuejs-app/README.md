@@ -2,6 +2,20 @@
 
 > My first VueJS project 
 
+## Hello World! <img align="left" alt="Vue" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" />
+
+<br />
+
+### Based on
+
+<br />
+<br />
+
+[:closed_book: Vue JS Documentation ](https://vuejs.org/)
+
+[Iniciando um projeto com Vue 2](https://imasters.com.br/back-end/iniciando-um-projeto-com-vue-2) por [Luiz Henrique Almeida](https://imasters.com.br/perfil/luizhenriquealmeida)
+
+
 ## Build Setup
 
 ``` bash
