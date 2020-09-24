@@ -54,6 +54,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas.</p>
       </md-tab>
     </md-tabs>
+    <router-link tag="md-button" class="md-raised md-primary" to="/about">
+      <md-icon>navigate_next</md-icon> Go to About Us
+    </router-link>
   </div>
 </template>
 
