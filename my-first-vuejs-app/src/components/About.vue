@@ -1,7 +1,7 @@
 <template>
   <div class="about-us">
-    <h1>About Us</h1>
-    <p>Powered by 0e1dev.com</p>
+    <h1>About Me</h1>
+    <p>Powered by Leandro Barroso</p>
     <router-link tag="md-button" class="md-raised md-primary" to="/hello">
       <md-icon>arrow_back</md-icon> Back to Hello
     </router-link>
@@ -16,3 +16,4 @@ export default {
   }
 }
 </script>
+<style></style>

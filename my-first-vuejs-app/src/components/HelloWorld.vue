@@ -11,35 +11,40 @@
     </md-toolbar>
     <md-tabs md-centered>
       <md-tab md-label="Movies" md-icon="ondemand_video">
-        <div class="field-group">
-          <md-input-container>
+        <div class="md-layout-item">
+          <md-field>
             <label for="movie">Movie</label>
-            <md-select name="movie" id="movie" v-model="movie">
-              <md-option value="fight_club">Fight Club</md-option>
+            <md-select name="movie" id="movie">
+              <md-option value="fight-club">Fight Club</md-option>
               <md-option value="godfather">Godfather</md-option>
-              <md-option value="godfather_ii">Godfather II</md-option>
-              <md-option value="godfather_iii">Godfather III</md-option>
+              <md-option value="godfather-ii">Godfather II</md-option>
+              <md-option value="godfather-iii">Godfather III</md-option>
               <md-option value="godfellas">Godfellas</md-option>
-              <md-option value="pulp_fiction">Pulp Fiction</md-option>
+              <md-option value="pulp-fiction">Pulp Fiction</md-option>
               <md-option value="scarface">Scarface</md-option>
             </md-select>
-          </md-input-container>
+          </md-field>
         </div>
-          <md-card style="width: 320px;" class="card-ripple" md-with-hover>
+          <md-card>
+            <md-card-header>
+              <md-avatar>
+                <img src="https://kitt.lewagon.com/placeholder/users/leandrobarroso" alt="Avatar">
+              </md-avatar>
+
+              <div class="md-title">Leandro Barroso</div>
+              <div class="md-subhead">Belo Horizonte, Brazil</div>
+            </md-card-header>
+
             <md-card-media>
-              <md-ink-ripple></md-ink-ripple>
-              <img src="https://vuematerial.github.io/assets/card-image-1.jpg" alt="People">
+              <img src="/assets/examples/card-image-1.jpg" alt="People">
             </md-card-media>
+
+            <md-card-content>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea nostrum.
+            </md-card-content>
+
             <md-card-actions>
-              <md-button class="md-icon-button">
-                <md-icon>favorite</md-icon>
-              </md-button>
-              <md-button class="md-icon-button">
-                <md-icon>bookmark</md-icon>
-              </md-button>
-              <md-button class="md-icon-button">
-                <md-icon>share</md-icon>
-              </md-button>
+              <md-button>Follow Me</md-button>
             </md-card-actions>
           </md-card>
       </md-tab>
@@ -55,7 +60,7 @@
       </md-tab>
     </md-tabs>
     <router-link tag="md-button" class="md-raised md-primary" to="/about">
-      <md-icon>navigate_next</md-icon> Go to About Us
+      <md-icon>navigate_next</md-icon> Go to About Me
     </router-link>
   </div>
 </template>
@@ -72,19 +77,4 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
+<style scoped></style>
